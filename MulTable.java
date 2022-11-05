@@ -7,16 +7,16 @@ public class MulTable
 	
 	{
 	   Scanner sc= new Scanner(System.in);
-	   int i, num,temp=1;         //declare variables
-	   System.out.println("Enter a number:");      // taking input from user
+	   int i, num,temp=1;         
+	   System.out.println("Enter a number:");      
 	   num =sc.nextInt();
 	   System.out.println("The Table of "+num);
 	   
 	  
-	   for(i=1;i<=10;i++)                    //running loop from 1 to 10 
+	   for(i=1;i<=10;i++)                     
 	   {
 		   temp=num*i;
-		   System.out.println(num+" * "+i+" = "+temp);  //display output
+		   System.out.println(num+" * "+i+" = "+temp);  
 		   
 	   }
     }
