@@ -7,13 +7,13 @@ public class MulTable
 	
 	{
 	   Scanner sc= new Scanner(System.in);
-	   int i, num,temp=1;         
+	   int num,temp=1;         
 	   System.out.println("Enter a number:");      
 	   num =sc.nextInt();
 	   System.out.println("The Table of "+num);
 	   
 	  
-	   for(i=1;i<=10;i++)                     
+	   for(int i=1;i<=10;i++)                     
 	   {
 		   temp=num*i;
 		   System.out.println(num+" * "+i+" = "+temp);  
