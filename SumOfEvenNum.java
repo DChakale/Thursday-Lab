@@ -7,17 +7,17 @@ public class SumOfEvenNum
 	
 	{
 		Scanner sc=new Scanner(System.in);
-		int i,num,sum=0;    //declare variables
-		System.out.println("Enter Number of terms:");   // taking input from user
+		int i,num,sum=0;    
+		System.out.println("Enter Number of terms:"); 
 		num=sc.nextInt();
 		
-		for(i=0;i<=num;i+=2)       // running loop 0 to n number for even numbers
+		for(i=0;i<=num;i+=2)    
 		
 		{
-			sum+=i;                 //doing sum of even numbers 
+			sum+=i;              
 		}
 		
-		System.out.println("The Sum of all even number from 1 to "+num+" is : "  +sum);
+		System.out.println("Sum of even number from 1 to "+num+" is : "  +sum);
 	}
 	
 
