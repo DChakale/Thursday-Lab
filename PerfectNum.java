@@ -9,7 +9,7 @@ public class PerfectNum
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter range to check perfect numbers");
 		num=sc.nextInt();
-		System.out.println("perfect numbers between 1 to "+num);
+
 		for (int i=1; i<num ;i++ )
 		{
 			sum=0;
